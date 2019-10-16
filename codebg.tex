@@ -4,6 +4,4 @@
 \definecolor{bgcolor}{gray}{0.9}
 \let\oldtexttt\texttt
 
-\renewcommand{\texttt}[1]{
-  \colorbox{bgcolor}{\oldtexttt{#1}}
-  }
+\renewenvironment{Shaded} {\begin{snugshade}\footnotesize} {\end{snugshade}}
